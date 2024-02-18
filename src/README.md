@@ -92,7 +92,7 @@ H5:Young people’s customer satisfaction with HEBs is positively associated wit
 
 语言: python3
 
-IDE: Jupyter Notebook、Anaconda
+IDE: Jupyter Notebook、Anaconda、pycharm
 
 库: semopy
 
