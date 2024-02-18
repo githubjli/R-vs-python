@@ -135,6 +135,10 @@ print(res)
 print(estimates)
 ```
 
+这个Python输出展示了结构方程模型（SEM）的分析结果，其中包括自变量（rval列）、因变量（lval列）、以及它们之间关系的估计系数（Estimate）、标准误差（Std. Err）、z值（z-value）和p值（p-value）。
+
+例如，CustomerSatisfaction ~ BusTangible表示客户满意度（因变量）与巴士有形特征（自变量）之间的关系。估计系数（Estimate）显示这种关系的大小和方向，而p值告诉我们这种关系在统计上是否显著。
+
 ```Python output
                         lval  op                      rval  Estimate  Std. Err    z-value   p-value
 0       CustomerSatisfaction   ~               BusTangible  0.312992  0.113946   2.746852  0.006017
@@ -256,6 +260,13 @@ summary(fit)
 standardizedSolution(fit)
 ```
 
+这个R的输出结果显示了结构方程模型（SEM）分析的详细结果，包括模型中各变量间的关系。在这里，lhs代表左手边的变量（因变量），op表示操作符（=~表示测量模型中的指标变量，~表示结构模型中的回归关系，~~表示方差或协方差），rhs代表右手边的变量（自变量或潜在变量），est.std是标准化估计系数，se是标准误，z是z值，pvalue是p值，ci.lower和ci.upper分别是置信区间的下限和上限。
+
+自变量：通常位于rhs列，指模型中作为预测因素的变量。
+
+因变量：通常位于lhs列，指模型中被预测或解释的变量。
+
+例如，BusTangible =~ BT1表示公交车有形特征（BusTangible）是BT1的潜在变量，而CustomerSatisfaction ~ BusTangible表示客户满意度（CustomerSatisfaction）被巴士有形特征（BusTangible）所预测。这些结果帮助研究者理解不同因素如何影响顾客满意度及其对生活满意度的进一步影响。
 
 ```R output
                         lhs op                      rhs est.std    se      z pvalue ci.lower ci.upper
