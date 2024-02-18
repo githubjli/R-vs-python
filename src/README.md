@@ -87,6 +87,8 @@ H5:Young people’s customer satisfaction with HEBs is positively associated wit
 
 环境绩效 -> 顾客满意 -> 生活满意
 
+![SEM模型](../image/jiashe.jpg)
+
 ## Python实现SEM
 基础环境
 
@@ -178,7 +180,23 @@ summary(fit)
 # Get standardized estimates of the model
 standardizedSolution(fit)
 ```
+### 案例研究结果
+通过Python和R语言实现SEM模型，得到了如下结果：
 
+![Python结果](../image/jielun.jpg)
+
+### 案例研究结论
+通过结果分析，我们得到了以下结论：
+
+| 假设 | 标准化系数 | 评论 |
+|------|------------|------|
+| H1：巴士有形→客户满意度 | 0.24 (0.13) * | 支持 |
+| H2：公交车司机素质→顾客满意度 | 0.13 (0.12) | 不支持 |
+| H3：同理心→客户满意度 | 0.35 (0.11) ** | 支持 |
+| H4：环境绩效→顾客满意度 | 0.16 (0.06) ** | 支持 |
+| H5：顾客满意度→生活满意度 | 0.31 (0.06) *** | 支持 |
+
+星号(*)表示显著性水平，*代表p<0.05，**代表p<0.01，***代表p<0.001。
 
 ## Python与R的对比
 ### 环境搭建
