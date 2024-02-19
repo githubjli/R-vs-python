@@ -366,8 +366,8 @@ standardizedSolution(fit)
 
 Based on the results analysis, we have the following conclusions:
  
-| Hypothesis | Standardized Coefficient | Comment |
-|------------|--------------------------|---------|
+| Hypothesis | Standardized  | Comment |
+|------------|---------------|---------|
 | H1: Bus Tangible → Customer Satisfaction | 0.24 (0.13) * | Supported |
 | H2: Bus Driver Quality → Customer Satisfaction | 0.13 (0.12) | Not Supported |
 | H3: Empathy → Customer Satisfaction | 0.35 (0.11) ** | Supported |
