@@ -364,6 +364,20 @@ standardizedSolution(fit)
 
 星号(*)表示显著性水平，*代表p<0.05，**代表p<0.01，***代表p<0.001。
 
+Based on the results analysis, we have the following conclusions:
+ 
+| Hypothesis | Standardized Coefficient | Comment |
+|------------|--------------------------|---------|
+| H1: Bus Tangible → Customer Satisfaction | 0.24 (0.13) * | Supported |
+| H2: Bus Driver Quality → Customer Satisfaction | 0.13 (0.12) | Not Supported |
+| H3: Empathy → Customer Satisfaction | 0.35 (0.11) ** | Supported |
+| H4: Environmental Performance → Customer Satisfaction | 0.16 (0.06) ** | Supported |
+| H5: Customer Satisfaction → Life Satisfaction | 0.31 (0.06) *** | Supported |
+
+The star (*) indicates the significance level, * means p<0.05, ** means p<0.01, *** means p<0.001.
+
+
+
 ## Python与R的对比
 |         | Python                                      | R                                                                  |
 |---------|---------------------------------------------|--------------------------------------------------------------------|
@@ -374,11 +388,27 @@ standardizedSolution(fit)
 | **可视**  | Matplotlib和Seaborn库提供丰富的可视化功能，也可使用Plotly等库。 | ggplot2库提供强大的可视化功能，语法简洁易上手。                               |
 | **SEM** | semopy库提供了强大的SEM功能，语法灵活，但需要掌握较多内容。          | lavaan库提供了强大的SEM功能，语法简洁易上手。                                |
 
+|          | Python                                      | R                                                                  |
+| ---------|---------------------------------------------|--------------------------------------------------------------------|
+| **Environment** | There are many supporting tools, but it requires mastering multiple software, making the installation and configuration complex. | Users need to manually install the R environment and RStudio, but the installation process is relatively simple. |
+| **Learning Curve** | There are many libraries with extensive content, leading to a steep learning curve. | The syntax is flexible, and there are rich statistical libraries, resulting in a relatively gentle learning curve. |
+| **Data** | The Pandas library provides rich data processing capabilities, which are powerful but add complexity. | The dplyr and tidyr libraries provide similar functionality and are more convenient for non-large-scale data processing. |
+| **Results** | The data output is flexible, but requires adjusting multiple function parameters, and the output is not as intuitive as R. | The output results are intuitive and can be directly displayed. |
+| **Visualization** | The Matplotlib and Seaborn libraries provide rich visualization capabilities, and other libraries like Plotly can also be used. | The ggplot2 library provides powerful visualization capabilities with a concise and easy-to-learn syntax. |
+| **SEM** | The semopy library provides powerful SEM capabilities with flexible syntax, but requires mastering more content. | The lavaan library provides powerful SEM capabilities with a concise and easy-to-learn syntax. |
+
+
+
 ## 结论
 Python和R语言都是数据科学领域的主流编程语言，各自拥有独特的优势和特点。
 在结构方程模型（SEM）的实现方面，Python的semopy和R的lavaan都提供了强大的功能和灵活的语法，可以满足用户对于SEM分析的需求。
 但是对于初学者来说，Python的学习曲线较为陡峭，需要掌握的内容较多，而R语言的语法较为灵活，针对统计方面的库较为丰富，学习曲线较为平缓。
 对于研究社会科学的学者来说，R语言可能是更好的选择。
+
+Python and R are both mainstream programming languages in the field of data science, each with its unique advantages and characteristics.
+In terms of implementing Structural Equation Modeling (SEM), Python's semopy and R's lavaan both provide powerful capabilities and flexible syntax to meet users' needs for SEM analysis.
+However, for beginners, Python has a steeper learning curve and requires mastering more content, while R's syntax is more flexible, and it has a richer set of statistical libraries, resulting in a gentler learning curve.
+For researchers in the social sciences, R may be the better choice.
 
 
 
