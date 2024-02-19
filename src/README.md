@@ -378,17 +378,18 @@ The star (*) indicates the significance level, * means p<0.05, ** means p<0.01, 
 
 
 | Hypothesis | Standardized  | Comment |
-|------------|---------------|---------|
-| H1: Bus Tangible → Customer Satisfaction | 0.24 (0.13) * | 支持 |
+|------------|---------------|--|
+| H1: Bus Tangible → Customer Satisfaction | 0.24 (0.13) * | Supported |
 | H1：巴士有形→客户满意度 | 0.24 (0.13) * | 支持 |
-| H2: Bus Driver Quality → Customer Satisfaction | 0.13 (0.12) | 不支持 |
+| H2: Bus Driver Quality → Customer Satisfaction | 0.13 (0.12) | Not Supported |
 | H2：公交车司机素质→顾客满意度 | 0.13 (0.12) | 不支持 |
-| H3: Empathy → Customer Satisfaction | 0.35 (0.11) ** | 支持 |
+| H3: Empathy → Customer Satisfaction | 0.35 (0.11) ** | Supported |
 | H3：同理心→客户满意度 | 0.35 (0.11) ** | 支持 |
-| H4: Environmental Performance → Customer Satisfaction | 0.16 (0.06) ** | 支持 |
+| H4: Environmental Performance → Customer Satisfaction | 0.16 (0.06) ** | Supported |
 | H4：环境绩效→顾客满意度 | 0.16 (0.06) ** | 支持 |
-| H5: Customer Satisfaction → Life Satisfaction | 0.31 (0.06) *** | 支持 |
+| H5: Customer Satisfaction → Life Satisfaction | 0.31 (0.06) *** | Supported |
 | H5：顾客满意度→生活满意度 | 0.31 (0.06) *** | 支持 |
+
 
 The star (*) indicates the significance level, * means p<0.05, ** means p<0.01, *** means p<0.001.
 
