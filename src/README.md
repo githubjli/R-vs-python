@@ -391,6 +391,7 @@ The star (*) indicates the significance level, * means p<0.05, ** means p<0.01, 
 | H5：顾客满意度→生活满意度 | 0.31 (0.06) *** | 支持 |
 
 The star (*) indicates the significance level, * means p<0.05, ** means p<0.01, *** means p<0.001.
+
 星号(*)表示显著性水平，*代表p<0.05，**代表p<0.01，***代表p<0.001。
 
 
